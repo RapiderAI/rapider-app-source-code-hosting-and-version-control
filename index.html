@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rapider Source Code Hosting &amp; Version Control</title>
+  <script src="https://kit.fontawesome.com/5b23df26dc.js" crossorigin="anonymous" defer></script>
+  <script src="/assets/js/rapider-components.js" defer></script>
+  <link rel="stylesheet" href="/assets/themes/rapider-tailwind-theme.css">
+  <link rel="stylesheet" href="/assets/themes/crm-expenses-design.css">
+  <style>
+    body, html { margin: 0; padding: 0; height: 100%; width: 100%; overflow: hidden; }
+    iframe#appFrame { width: 100%; height: 100%; border: none; }
+  </style>
+</head>
+<body>
+  <iframe id="appFrame" src="pages/scm-overview/scm-overview.html"></iframe>
+  <script>
+    const routes = {
+  "scm-overview": "pages/scm-overview/scm-overview.html",
+  "repositories": "pages/repositories/repositories.html",
+  "pull-requests": "pages/pull-requests/pull-requests.html",
+  "merge-queue": "pages/merge-queue/merge-queue.html",
+  "code-search": "pages/code-search/code-search.html",
+  "commit-ledger": "pages/commit-ledger/commit-ledger.html",
+  "releases-tags": "pages/releases-tags/releases-tags.html",
+  "branch-rulesets": "pages/branch-rulesets/branch-rulesets.html",
+  "security-advisories": "pages/security-advisories/security-advisories.html",
+  "sbom-compliance": "pages/sbom-compliance/sbom-compliance.html",
+  "repo-code-browser": "pages/repo-code-browser/repo-code-browser.html",
+  "pull-request-detail": "pages/pull-request-detail/pull-request-detail.html"
+};
+    function handleHash() {
+      const hash = window.location.hash.replace(/^#\/?/, '').split('?')[0];
+      const route = hash || 'scm-overview';
+      const target = routes[route] || routes['scm-overview'];
+      const iframe = document.getElementById('appFrame');
+      if (iframe) iframe.src = target;
+    }
+    window.addEventListener('hashchange', handleHash);
+    window.addEventListener('load', handleHash);
+  </script>
+</body>
+</html>
