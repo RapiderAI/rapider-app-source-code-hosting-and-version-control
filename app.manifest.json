@@ -1251,6 +1251,134 @@
           "isHidden": false,
           "isArray": false,
           "default": false
+        },
+        {
+          "name": "recordCode",
+          "type": "string",
+          "description": "recordCode attribute for DevRepository",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "title attribute for DevRepository",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "modelTitle",
+          "type": "string",
+          "description": "modelTitle attribute for DevRepository",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "ownerName",
+          "type": "string",
+          "description": "ownerName attribute for DevRepository",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "primaryAttrLabel",
+          "type": "string",
+          "description": "primaryAttrLabel attribute for DevRepository",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "primaryAttrValue",
+          "type": "string",
+          "description": "primaryAttrValue attribute for DevRepository",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "secondaryAttrLabel",
+          "type": "string",
+          "description": "secondaryAttrLabel attribute for DevRepository",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "secondaryAttrValue",
+          "type": "string",
+          "description": "secondaryAttrValue attribute for DevRepository",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "metricLabel",
+          "type": "string",
+          "description": "metricLabel attribute for DevRepository",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "metricValue",
+          "type": "string",
+          "description": "metricValue attribute for DevRepository",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "operationalSummary",
+          "type": "string",
+          "description": "operationalSummary attribute for DevRepository",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "invariantRule",
+          "type": "string",
+          "description": "invariantRule attribute for DevRepository",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "crossSuiteRef",
+          "type": "string",
+          "description": "crossSuiteRef attribute for DevRepository",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "updatedAt",
+          "type": "string",
+          "description": "updatedAt attribute for DevRepository",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "contactPhone",
+          "type": "string",
+          "description": "contactPhone attribute for DevRepository",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "moderationStage",
+          "type": "string",
+          "description": "moderationStage attribute for DevRepository",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
         }
       ],
       "relations": [
@@ -1486,6 +1614,142 @@
           "isHidden": false,
           "isArray": false,
           "default": false
+        },
+        {
+          "name": "recordCode",
+          "type": "string",
+          "description": "recordCode attribute for DevBranchRule",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "title attribute for DevBranchRule",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "description": "name attribute for DevBranchRule",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "modelTitle",
+          "type": "string",
+          "description": "modelTitle attribute for DevBranchRule",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "ownerName",
+          "type": "string",
+          "description": "ownerName attribute for DevBranchRule",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "primaryAttrLabel",
+          "type": "string",
+          "description": "primaryAttrLabel attribute for DevBranchRule",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "primaryAttrValue",
+          "type": "string",
+          "description": "primaryAttrValue attribute for DevBranchRule",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "secondaryAttrLabel",
+          "type": "string",
+          "description": "secondaryAttrLabel attribute for DevBranchRule",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "secondaryAttrValue",
+          "type": "string",
+          "description": "secondaryAttrValue attribute for DevBranchRule",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "metricLabel",
+          "type": "string",
+          "description": "metricLabel attribute for DevBranchRule",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "metricValue",
+          "type": "string",
+          "description": "metricValue attribute for DevBranchRule",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "operationalSummary",
+          "type": "string",
+          "description": "operationalSummary attribute for DevBranchRule",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "invariantRule",
+          "type": "string",
+          "description": "invariantRule attribute for DevBranchRule",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "crossSuiteRef",
+          "type": "string",
+          "description": "crossSuiteRef attribute for DevBranchRule",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "updatedAt",
+          "type": "string",
+          "description": "updatedAt attribute for DevBranchRule",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "contactPhone",
+          "type": "string",
+          "description": "contactPhone attribute for DevBranchRule",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "moderationStage",
+          "type": "string",
+          "description": "moderationStage attribute for DevBranchRule",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
         }
       ],
       "relations": [
@@ -1707,6 +1971,150 @@
           "isHidden": false,
           "isArray": false,
           "default": false
+        },
+        {
+          "name": "recordCode",
+          "type": "string",
+          "description": "recordCode attribute for DevCommitRef",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "title attribute for DevCommitRef",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "description": "name attribute for DevCommitRef",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "modelTitle",
+          "type": "string",
+          "description": "modelTitle attribute for DevCommitRef",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "ownerName",
+          "type": "string",
+          "description": "ownerName attribute for DevCommitRef",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "primaryAttrLabel",
+          "type": "string",
+          "description": "primaryAttrLabel attribute for DevCommitRef",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "primaryAttrValue",
+          "type": "string",
+          "description": "primaryAttrValue attribute for DevCommitRef",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "secondaryAttrLabel",
+          "type": "string",
+          "description": "secondaryAttrLabel attribute for DevCommitRef",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "secondaryAttrValue",
+          "type": "string",
+          "description": "secondaryAttrValue attribute for DevCommitRef",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "metricLabel",
+          "type": "string",
+          "description": "metricLabel attribute for DevCommitRef",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "metricValue",
+          "type": "string",
+          "description": "metricValue attribute for DevCommitRef",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "operationalSummary",
+          "type": "string",
+          "description": "operationalSummary attribute for DevCommitRef",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "invariantRule",
+          "type": "string",
+          "description": "invariantRule attribute for DevCommitRef",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "crossSuiteRef",
+          "type": "string",
+          "description": "crossSuiteRef attribute for DevCommitRef",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "updatedAt",
+          "type": "string",
+          "description": "updatedAt attribute for DevCommitRef",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "contactPhone",
+          "type": "string",
+          "description": "contactPhone attribute for DevCommitRef",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "moderationStage",
+          "type": "string",
+          "description": "moderationStage attribute for DevCommitRef",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "version",
+          "type": "number",
+          "description": "version attribute for DevCommitRef",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
         }
       ],
       "relations": [
@@ -2017,6 +2425,134 @@
           "isHidden": false,
           "isArray": false,
           "default": false
+        },
+        {
+          "name": "recordCode",
+          "type": "string",
+          "description": "recordCode attribute for DevPullRequest",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "description": "name attribute for DevPullRequest",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "modelTitle",
+          "type": "string",
+          "description": "modelTitle attribute for DevPullRequest",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "ownerName",
+          "type": "string",
+          "description": "ownerName attribute for DevPullRequest",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "primaryAttrLabel",
+          "type": "string",
+          "description": "primaryAttrLabel attribute for DevPullRequest",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "primaryAttrValue",
+          "type": "string",
+          "description": "primaryAttrValue attribute for DevPullRequest",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "secondaryAttrLabel",
+          "type": "string",
+          "description": "secondaryAttrLabel attribute for DevPullRequest",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "secondaryAttrValue",
+          "type": "string",
+          "description": "secondaryAttrValue attribute for DevPullRequest",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "metricLabel",
+          "type": "string",
+          "description": "metricLabel attribute for DevPullRequest",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "metricValue",
+          "type": "string",
+          "description": "metricValue attribute for DevPullRequest",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "operationalSummary",
+          "type": "string",
+          "description": "operationalSummary attribute for DevPullRequest",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "invariantRule",
+          "type": "string",
+          "description": "invariantRule attribute for DevPullRequest",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "crossSuiteRef",
+          "type": "string",
+          "description": "crossSuiteRef attribute for DevPullRequest",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "updatedAt",
+          "type": "string",
+          "description": "updatedAt attribute for DevPullRequest",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "contactPhone",
+          "type": "string",
+          "description": "contactPhone attribute for DevPullRequest",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "moderationStage",
+          "type": "string",
+          "description": "moderationStage attribute for DevPullRequest",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
         }
       ],
       "relations": [
@@ -2257,6 +2793,142 @@
           "isHidden": false,
           "isArray": false,
           "default": false
+        },
+        {
+          "name": "recordCode",
+          "type": "string",
+          "description": "recordCode attribute for DevCodeReviewComment",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "title attribute for DevCodeReviewComment",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "description": "name attribute for DevCodeReviewComment",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "modelTitle",
+          "type": "string",
+          "description": "modelTitle attribute for DevCodeReviewComment",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "ownerName",
+          "type": "string",
+          "description": "ownerName attribute for DevCodeReviewComment",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "primaryAttrLabel",
+          "type": "string",
+          "description": "primaryAttrLabel attribute for DevCodeReviewComment",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "primaryAttrValue",
+          "type": "string",
+          "description": "primaryAttrValue attribute for DevCodeReviewComment",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "secondaryAttrLabel",
+          "type": "string",
+          "description": "secondaryAttrLabel attribute for DevCodeReviewComment",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "secondaryAttrValue",
+          "type": "string",
+          "description": "secondaryAttrValue attribute for DevCodeReviewComment",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "metricLabel",
+          "type": "string",
+          "description": "metricLabel attribute for DevCodeReviewComment",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "metricValue",
+          "type": "string",
+          "description": "metricValue attribute for DevCodeReviewComment",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "operationalSummary",
+          "type": "string",
+          "description": "operationalSummary attribute for DevCodeReviewComment",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "invariantRule",
+          "type": "string",
+          "description": "invariantRule attribute for DevCodeReviewComment",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "crossSuiteRef",
+          "type": "string",
+          "description": "crossSuiteRef attribute for DevCodeReviewComment",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "updatedAt",
+          "type": "string",
+          "description": "updatedAt attribute for DevCodeReviewComment",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "contactPhone",
+          "type": "string",
+          "description": "contactPhone attribute for DevCodeReviewComment",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "moderationStage",
+          "type": "string",
+          "description": "moderationStage attribute for DevCodeReviewComment",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
         }
       ],
       "relations": [
@@ -2454,6 +3126,134 @@
           "isHidden": false,
           "isArray": false,
           "default": false
+        },
+        {
+          "name": "recordCode",
+          "type": "string",
+          "description": "recordCode attribute for DevReleaseTag",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "description": "name attribute for DevReleaseTag",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "modelTitle",
+          "type": "string",
+          "description": "modelTitle attribute for DevReleaseTag",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "ownerName",
+          "type": "string",
+          "description": "ownerName attribute for DevReleaseTag",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "primaryAttrLabel",
+          "type": "string",
+          "description": "primaryAttrLabel attribute for DevReleaseTag",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "primaryAttrValue",
+          "type": "string",
+          "description": "primaryAttrValue attribute for DevReleaseTag",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "secondaryAttrLabel",
+          "type": "string",
+          "description": "secondaryAttrLabel attribute for DevReleaseTag",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "secondaryAttrValue",
+          "type": "string",
+          "description": "secondaryAttrValue attribute for DevReleaseTag",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "metricLabel",
+          "type": "string",
+          "description": "metricLabel attribute for DevReleaseTag",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "metricValue",
+          "type": "string",
+          "description": "metricValue attribute for DevReleaseTag",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "operationalSummary",
+          "type": "string",
+          "description": "operationalSummary attribute for DevReleaseTag",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "invariantRule",
+          "type": "string",
+          "description": "invariantRule attribute for DevReleaseTag",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "crossSuiteRef",
+          "type": "string",
+          "description": "crossSuiteRef attribute for DevReleaseTag",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "updatedAt",
+          "type": "string",
+          "description": "updatedAt attribute for DevReleaseTag",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "contactPhone",
+          "type": "string",
+          "description": "contactPhone attribute for DevReleaseTag",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "moderationStage",
+          "type": "string",
+          "description": "moderationStage attribute for DevReleaseTag",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
         }
       ],
       "relations": [
@@ -2696,6 +3496,142 @@
           "isHidden": false,
           "isArray": false,
           "default": false
+        },
+        {
+          "name": "recordCode",
+          "type": "string",
+          "description": "recordCode attribute for DevSecurityAdvisory",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "title attribute for DevSecurityAdvisory",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "description": "name attribute for DevSecurityAdvisory",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "modelTitle",
+          "type": "string",
+          "description": "modelTitle attribute for DevSecurityAdvisory",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "ownerName",
+          "type": "string",
+          "description": "ownerName attribute for DevSecurityAdvisory",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "primaryAttrLabel",
+          "type": "string",
+          "description": "primaryAttrLabel attribute for DevSecurityAdvisory",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "primaryAttrValue",
+          "type": "string",
+          "description": "primaryAttrValue attribute for DevSecurityAdvisory",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "secondaryAttrLabel",
+          "type": "string",
+          "description": "secondaryAttrLabel attribute for DevSecurityAdvisory",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "secondaryAttrValue",
+          "type": "string",
+          "description": "secondaryAttrValue attribute for DevSecurityAdvisory",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "metricLabel",
+          "type": "string",
+          "description": "metricLabel attribute for DevSecurityAdvisory",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "metricValue",
+          "type": "string",
+          "description": "metricValue attribute for DevSecurityAdvisory",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "operationalSummary",
+          "type": "string",
+          "description": "operationalSummary attribute for DevSecurityAdvisory",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "invariantRule",
+          "type": "string",
+          "description": "invariantRule attribute for DevSecurityAdvisory",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "crossSuiteRef",
+          "type": "string",
+          "description": "crossSuiteRef attribute for DevSecurityAdvisory",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "updatedAt",
+          "type": "string",
+          "description": "updatedAt attribute for DevSecurityAdvisory",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "contactPhone",
+          "type": "string",
+          "description": "contactPhone attribute for DevSecurityAdvisory",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "moderationStage",
+          "type": "string",
+          "description": "moderationStage attribute for DevSecurityAdvisory",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
         }
       ],
       "relations": [
@@ -2717,133 +3653,181 @@
       "name": "Developer Engineering Hub",
       "route": "scm-overview",
       "htmlFilePath": "pages/scm-overview/scm-overview.html",
-      "title": "Developer Engineering Hub",
+      "title": "Code & Reviews",
       "group": "Code & Reviews",
       "icon": "fas fa-code",
       "displayInMenu": true,
       "order": 1,
-      "developmentDetails": "Assigned PR reviews ribbon, open PRs authored, DORA review cycle-time KPIs, critical security advisory banner, #activeFilterTagsBar."
+      "developmentDetails": "Assigned PR reviews ribbon, open PRs authored, DORA review cycle-time KPIs, critical security advisory banner, #activeFilterTagsBar.",
+      "pageTitle": "Developer Engineering Hub",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "Assigned PR reviews ribbon, open PRs authored, DORA review cycle-time KPIs, critical security advisory banner, #activeFilterTagsBar."
     },
     {
       "name": "Repositories",
       "route": "repositories",
       "htmlFilePath": "pages/repositories/repositories.html",
-      "title": "Repositories",
+      "title": "Code & Reviews",
       "group": "Code & Reviews",
       "icon": "fas fa-code",
       "displayInMenu": true,
       "order": 2,
-      "developmentDetails": "findSWR directory of DevRepository records with visibility/template/language filter pills, #activeFilterTagsBar + Clear all, clickable repo slug, icon+text Edit, icon-only Delete."
+      "developmentDetails": "findSWR directory of DevRepository records with visibility/template/language filter pills, #activeFilterTagsBar + Clear all, clickable repo slug, icon+text Edit, icon-only Delete.",
+      "pageTitle": "Repositories",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "findSWR directory of DevRepository records with visibility/template/language filter pills, #activeFilterTagsBar + Clear all, clickable repo slug, icon+text Edit, icon-only Delete."
     },
     {
       "name": "Pull Requests",
       "route": "pull-requests",
       "htmlFilePath": "pages/pull-requests/pull-requests.html",
-      "title": "Pull Requests",
+      "title": "Code & Reviews",
       "group": "Code & Reviews",
       "icon": "fas fa-code",
       "displayInMenu": true,
       "order": 3,
-      "developmentDetails": "Cross-repo DevPullRequest queue (OPEN, DRAFT, QUEUED, MERGED, CLOSED), CI check badges, risk score pill, clickable PR title, icon+text Edit, icon-only Delete."
+      "developmentDetails": "Cross-repo DevPullRequest queue (OPEN, DRAFT, QUEUED, MERGED, CLOSED), CI check badges, risk score pill, clickable PR title, icon+text Edit, icon-only Delete.",
+      "pageTitle": "Pull Requests",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "Cross-repo DevPullRequest queue (OPEN, DRAFT, QUEUED, MERGED, CLOSED), CI check badges, risk score pill, clickable PR title, icon+text Edit, icon-only Delete."
     },
     {
       "name": "Speculative Merge Queue",
       "route": "merge-queue",
       "htmlFilePath": "pages/merge-queue/merge-queue.html",
-      "title": "Speculative Merge Queue",
+      "title": "Code & Reviews",
       "group": "Code & Reviews",
       "icon": "fas fa-code",
       "displayInMenu": true,
       "order": 4,
-      "developmentDetails": "Live ordered queue of QUEUED PRs per target branch, cumulative #102 CI batch status, estimated time-to-merge, and Eject from Queue action."
+      "developmentDetails": "Live ordered queue of QUEUED PRs per target branch, cumulative #102 CI batch status, estimated time-to-merge, and Eject from Queue action.",
+      "pageTitle": "Speculative Merge Queue",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "Live ordered queue of QUEUED PRs per target branch, cumulative #102 CI batch status, estimated time-to-merge, and Eject from Queue action."
     },
     {
       "name": "Cross-Repo Code Search",
       "route": "code-search",
       "htmlFilePath": "pages/code-search/code-search.html",
-      "title": "Cross-Repo Code Search",
+      "title": "Commits & Releases",
       "group": "Commits & Releases",
       "icon": "fas fa-code",
       "displayInMenu": true,
       "order": 5,
-      "developmentDetails": "Symbol, path, and regex search studio across authorized DevRepository trees with syntax-highlighted context snippets and jump-to-line links."
+      "developmentDetails": "Symbol, path, and regex search studio across authorized DevRepository trees with syntax-highlighted context snippets and jump-to-line links.",
+      "pageTitle": "Cross-Repo Code Search",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "Symbol, path, and regex search studio across authorized DevRepository trees with syntax-highlighted context snippets and jump-to-line links."
     },
     {
       "name": "Commits & Traceability",
       "route": "commit-ledger",
       "htmlFilePath": "pages/commit-ledger/commit-ledger.html",
-      "title": "Commits & Traceability",
+      "title": "Commits & Releases",
       "group": "Commits & Releases",
       "icon": "fas fa-code",
       "displayInMenu": true,
       "order": 6,
-      "developmentDetails": "Searchable DevCommitRef history showing verified GPG/SSH badges, author, linked ApmIssue chips, and #102 deployment environment badges."
+      "developmentDetails": "Searchable DevCommitRef history showing verified GPG/SSH badges, author, linked ApmIssue chips, and #102 deployment environment badges.",
+      "pageTitle": "Commits & Traceability",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "Searchable DevCommitRef history showing verified GPG/SSH badges, author, linked ApmIssue chips, and #102 deployment environment badges."
     },
     {
       "name": "Releases & Changelogs",
       "route": "releases-tags",
       "htmlFilePath": "pages/releases-tags/releases-tags.html",
-      "title": "Releases & Changelogs",
+      "title": "Commits & Releases",
       "group": "Commits & Releases",
       "icon": "fas fa-code",
       "displayInMenu": true,
       "order": 7,
-      "developmentDetails": "DevReleaseTag catalog (SemVer), auto-compiled markdown changelogs, SHA-256 verified Drive asset links, and \"Draft New Release\" launcher."
+      "developmentDetails": "DevReleaseTag catalog (SemVer), auto-compiled markdown changelogs, SHA-256 verified Drive asset links, and \"Draft New Release\" launcher.",
+      "pageTitle": "Releases & Changelogs",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "DevReleaseTag catalog (SemVer), auto-compiled markdown changelogs, SHA-256 verified Drive asset links, and \"Draft New Release\" launcher."
     },
     {
       "name": "Branch & CODEOWNERS Rules",
       "route": "branch-rulesets",
       "htmlFilePath": "pages/branch-rulesets/branch-rulesets.html",
-      "title": "Branch & CODEOWNERS Rules",
+      "title": "Governance & Security",
       "group": "Governance & Security",
       "icon": "fas fa-code",
       "displayInMenu": true,
       "order": 8,
-      "developmentDetails": "Workspace and repo DevBranchRule table showing protected globs (main, release/), required approvers, SoD self-approval ban, and required #102/#103 checks."
+      "developmentDetails": "Workspace and repo DevBranchRule table showing protected globs (main, release/*), required approvers, SoD self-approval ban, and required #102/#103 checks.",
+      "pageTitle": "Branch & CODEOWNERS Rules",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "Workspace and repo DevBranchRule table showing protected globs (main, release/*), required approvers, SoD self-approval ban, and required #102/#103 checks."
     },
     {
       "name": "Secret & Dependency Security",
       "route": "security-advisories",
       "htmlFilePath": "pages/security-advisories/security-advisories.html",
-      "title": "Secret & Dependency Security",
+      "title": "Governance & Security",
       "group": "Governance & Security",
       "icon": "fas fa-code",
       "displayInMenu": true,
       "order": 9,
-      "developmentDetails": "DevSecurityAdvisory triage view (<rapider-kanban> + synchronized table) for push-blocked secrets, SCA CVEs (Decimal128 CVSS), and license alerts."
+      "developmentDetails": "DevSecurityAdvisory triage view (<rapider-kanban> + synchronized table) for push-blocked secrets, SCA CVEs (Decimal128 CVSS), and license alerts.",
+      "pageTitle": "Secret & Dependency Security",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "DevSecurityAdvisory triage view (<rapider-kanban> + synchronized table) for push-blocked secrets, SCA CVEs (Decimal128 CVSS), and license alerts."
     },
     {
       "name": "SBOM & Change Audit",
       "route": "sbom-compliance",
       "htmlFilePath": "pages/sbom-compliance/sbom-compliance.html",
-      "title": "SBOM & Change Audit",
+      "title": "Governance & Security",
       "group": "Governance & Security",
       "icon": "fas fa-code",
       "displayInMenu": true,
       "order": 10,
-      "developmentDetails": "CycloneDX/SPDX package inventory exporter and SOX/SOC 2 PR Segregation-of-Duties compliance report (100% linked ApmIssue & independent approver check)."
+      "developmentDetails": "CycloneDX/SPDX package inventory exporter and SOX/SOC 2 PR Segregation-of-Duties compliance report (100% linked ApmIssue & independent approver check).",
+      "pageTitle": "SBOM & Change Audit",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "CycloneDX/SPDX package inventory exporter and SOX/SOC 2 PR Segregation-of-Duties compliance report (100% linked ApmIssue & independent approver check)."
     },
     {
       "name": "Repository Tree & Blame View",
       "route": "repo-code-browser",
       "htmlFilePath": "pages/repo-code-browser/repo-code-browser.html",
-      "title": "Repository Tree & Blame View",
-      "group": "(Hidden)",
+      "title": "*(Hidden)*",
+      "group": "*(Hidden)*",
       "icon": "fas fa-code",
       "displayInMenu": false,
       "order": 11,
-      "developmentDetails": "Branch/tag selector (#/repo-code-browser?id=...), directory tree, file syntax viewer + git blame toggle, README.md renderer, and Back to Repositories."
+      "developmentDetails": "Branch/tag selector (#/repo-code-browser?id=...), directory tree, file syntax viewer + git blame toggle, README.md renderer, and Back to Repositories.",
+      "pageTitle": "Repository Tree & Blame View",
+      "type": "AppPage",
+      "displayOnMenu": false,
+      "description": "Branch/tag selector (#/repo-code-browser?id=...), directory tree, file syntax viewer + git blame toggle, README.md renderer, and Back to Repositories."
     },
     {
       "name": "Pull Request Diff & Review Studio",
       "route": "pull-request-detail",
       "htmlFilePath": "pages/pull-request-detail/pull-request-detail.html",
-      "title": "Pull Request Diff & Review Studio",
-      "group": "(Hidden)",
+      "title": "*(Hidden)*",
+      "group": "*(Hidden)*",
       "icon": "fas fa-code",
       "displayInMenu": false,
       "order": 12,
-      "developmentDetails": "Tabbed PR studio (#/pull-request-detail?id=...): Conversation (projectChannelMessage + AI Walkthrough), Files Changed (split/unified diff + inline DevCodeReviewComments), Checks (#102/#103), Merge/Queue button, plus sliding pr-rule-drawer (displayOnMenu: false) for PR/Rule creation & editing."
+      "developmentDetails": "Tabbed PR studio (#/pull-request-detail?id=...): Conversation (projectChannelMessage + AI Walkthrough), Files Changed (split/unified diff + inline DevCodeReviewComments), Checks (#102/#103), Merge/Queue button, plus sliding pr-rule-drawer (displayOnMenu: false) for PR/Rule creation & editing.",
+      "pageTitle": "Pull Request Diff & Review Studio",
+      "type": "AppPage",
+      "displayOnMenu": false,
+      "description": "Tabbed PR studio (#/pull-request-detail?id=...): Conversation (projectChannelMessage + AI Walkthrough), Files Changed (split/unified diff + inline DevCodeReviewComments), Checks (#102/#103), Merge/Queue button, plus sliding pr-rule-drawer (displayOnMenu: false) for PR/Rule creation & editing."
     }
   ],
   "workflows": [],
@@ -2854,133 +3838,181 @@
       "name": "Developer Engineering Hub",
       "route": "scm-overview",
       "htmlFilePath": "pages/scm-overview/scm-overview.html",
-      "title": "Developer Engineering Hub",
+      "title": "Code & Reviews",
       "group": "Code & Reviews",
       "icon": "fas fa-code",
       "displayInMenu": true,
       "order": 1,
-      "developmentDetails": "Assigned PR reviews ribbon, open PRs authored, DORA review cycle-time KPIs, critical security advisory banner, #activeFilterTagsBar."
+      "developmentDetails": "Assigned PR reviews ribbon, open PRs authored, DORA review cycle-time KPIs, critical security advisory banner, #activeFilterTagsBar.",
+      "pageTitle": "Developer Engineering Hub",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "Assigned PR reviews ribbon, open PRs authored, DORA review cycle-time KPIs, critical security advisory banner, #activeFilterTagsBar."
     },
     {
       "name": "Repositories",
       "route": "repositories",
       "htmlFilePath": "pages/repositories/repositories.html",
-      "title": "Repositories",
+      "title": "Code & Reviews",
       "group": "Code & Reviews",
       "icon": "fas fa-code",
       "displayInMenu": true,
       "order": 2,
-      "developmentDetails": "findSWR directory of DevRepository records with visibility/template/language filter pills, #activeFilterTagsBar + Clear all, clickable repo slug, icon+text Edit, icon-only Delete."
+      "developmentDetails": "findSWR directory of DevRepository records with visibility/template/language filter pills, #activeFilterTagsBar + Clear all, clickable repo slug, icon+text Edit, icon-only Delete.",
+      "pageTitle": "Repositories",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "findSWR directory of DevRepository records with visibility/template/language filter pills, #activeFilterTagsBar + Clear all, clickable repo slug, icon+text Edit, icon-only Delete."
     },
     {
       "name": "Pull Requests",
       "route": "pull-requests",
       "htmlFilePath": "pages/pull-requests/pull-requests.html",
-      "title": "Pull Requests",
+      "title": "Code & Reviews",
       "group": "Code & Reviews",
       "icon": "fas fa-code",
       "displayInMenu": true,
       "order": 3,
-      "developmentDetails": "Cross-repo DevPullRequest queue (OPEN, DRAFT, QUEUED, MERGED, CLOSED), CI check badges, risk score pill, clickable PR title, icon+text Edit, icon-only Delete."
+      "developmentDetails": "Cross-repo DevPullRequest queue (OPEN, DRAFT, QUEUED, MERGED, CLOSED), CI check badges, risk score pill, clickable PR title, icon+text Edit, icon-only Delete.",
+      "pageTitle": "Pull Requests",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "Cross-repo DevPullRequest queue (OPEN, DRAFT, QUEUED, MERGED, CLOSED), CI check badges, risk score pill, clickable PR title, icon+text Edit, icon-only Delete."
     },
     {
       "name": "Speculative Merge Queue",
       "route": "merge-queue",
       "htmlFilePath": "pages/merge-queue/merge-queue.html",
-      "title": "Speculative Merge Queue",
+      "title": "Code & Reviews",
       "group": "Code & Reviews",
       "icon": "fas fa-code",
       "displayInMenu": true,
       "order": 4,
-      "developmentDetails": "Live ordered queue of QUEUED PRs per target branch, cumulative #102 CI batch status, estimated time-to-merge, and Eject from Queue action."
+      "developmentDetails": "Live ordered queue of QUEUED PRs per target branch, cumulative #102 CI batch status, estimated time-to-merge, and Eject from Queue action.",
+      "pageTitle": "Speculative Merge Queue",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "Live ordered queue of QUEUED PRs per target branch, cumulative #102 CI batch status, estimated time-to-merge, and Eject from Queue action."
     },
     {
       "name": "Cross-Repo Code Search",
       "route": "code-search",
       "htmlFilePath": "pages/code-search/code-search.html",
-      "title": "Cross-Repo Code Search",
+      "title": "Commits & Releases",
       "group": "Commits & Releases",
       "icon": "fas fa-code",
       "displayInMenu": true,
       "order": 5,
-      "developmentDetails": "Symbol, path, and regex search studio across authorized DevRepository trees with syntax-highlighted context snippets and jump-to-line links."
+      "developmentDetails": "Symbol, path, and regex search studio across authorized DevRepository trees with syntax-highlighted context snippets and jump-to-line links.",
+      "pageTitle": "Cross-Repo Code Search",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "Symbol, path, and regex search studio across authorized DevRepository trees with syntax-highlighted context snippets and jump-to-line links."
     },
     {
       "name": "Commits & Traceability",
       "route": "commit-ledger",
       "htmlFilePath": "pages/commit-ledger/commit-ledger.html",
-      "title": "Commits & Traceability",
+      "title": "Commits & Releases",
       "group": "Commits & Releases",
       "icon": "fas fa-code",
       "displayInMenu": true,
       "order": 6,
-      "developmentDetails": "Searchable DevCommitRef history showing verified GPG/SSH badges, author, linked ApmIssue chips, and #102 deployment environment badges."
+      "developmentDetails": "Searchable DevCommitRef history showing verified GPG/SSH badges, author, linked ApmIssue chips, and #102 deployment environment badges.",
+      "pageTitle": "Commits & Traceability",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "Searchable DevCommitRef history showing verified GPG/SSH badges, author, linked ApmIssue chips, and #102 deployment environment badges."
     },
     {
       "name": "Releases & Changelogs",
       "route": "releases-tags",
       "htmlFilePath": "pages/releases-tags/releases-tags.html",
-      "title": "Releases & Changelogs",
+      "title": "Commits & Releases",
       "group": "Commits & Releases",
       "icon": "fas fa-code",
       "displayInMenu": true,
       "order": 7,
-      "developmentDetails": "DevReleaseTag catalog (SemVer), auto-compiled markdown changelogs, SHA-256 verified Drive asset links, and \"Draft New Release\" launcher."
+      "developmentDetails": "DevReleaseTag catalog (SemVer), auto-compiled markdown changelogs, SHA-256 verified Drive asset links, and \"Draft New Release\" launcher.",
+      "pageTitle": "Releases & Changelogs",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "DevReleaseTag catalog (SemVer), auto-compiled markdown changelogs, SHA-256 verified Drive asset links, and \"Draft New Release\" launcher."
     },
     {
       "name": "Branch & CODEOWNERS Rules",
       "route": "branch-rulesets",
       "htmlFilePath": "pages/branch-rulesets/branch-rulesets.html",
-      "title": "Branch & CODEOWNERS Rules",
+      "title": "Governance & Security",
       "group": "Governance & Security",
       "icon": "fas fa-code",
       "displayInMenu": true,
       "order": 8,
-      "developmentDetails": "Workspace and repo DevBranchRule table showing protected globs (main, release/), required approvers, SoD self-approval ban, and required #102/#103 checks."
+      "developmentDetails": "Workspace and repo DevBranchRule table showing protected globs (main, release/*), required approvers, SoD self-approval ban, and required #102/#103 checks.",
+      "pageTitle": "Branch & CODEOWNERS Rules",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "Workspace and repo DevBranchRule table showing protected globs (main, release/*), required approvers, SoD self-approval ban, and required #102/#103 checks."
     },
     {
       "name": "Secret & Dependency Security",
       "route": "security-advisories",
       "htmlFilePath": "pages/security-advisories/security-advisories.html",
-      "title": "Secret & Dependency Security",
+      "title": "Governance & Security",
       "group": "Governance & Security",
       "icon": "fas fa-code",
       "displayInMenu": true,
       "order": 9,
-      "developmentDetails": "DevSecurityAdvisory triage view (<rapider-kanban> + synchronized table) for push-blocked secrets, SCA CVEs (Decimal128 CVSS), and license alerts."
+      "developmentDetails": "DevSecurityAdvisory triage view (<rapider-kanban> + synchronized table) for push-blocked secrets, SCA CVEs (Decimal128 CVSS), and license alerts.",
+      "pageTitle": "Secret & Dependency Security",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "DevSecurityAdvisory triage view (<rapider-kanban> + synchronized table) for push-blocked secrets, SCA CVEs (Decimal128 CVSS), and license alerts."
     },
     {
       "name": "SBOM & Change Audit",
       "route": "sbom-compliance",
       "htmlFilePath": "pages/sbom-compliance/sbom-compliance.html",
-      "title": "SBOM & Change Audit",
+      "title": "Governance & Security",
       "group": "Governance & Security",
       "icon": "fas fa-code",
       "displayInMenu": true,
       "order": 10,
-      "developmentDetails": "CycloneDX/SPDX package inventory exporter and SOX/SOC 2 PR Segregation-of-Duties compliance report (100% linked ApmIssue & independent approver check)."
+      "developmentDetails": "CycloneDX/SPDX package inventory exporter and SOX/SOC 2 PR Segregation-of-Duties compliance report (100% linked ApmIssue & independent approver check).",
+      "pageTitle": "SBOM & Change Audit",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "CycloneDX/SPDX package inventory exporter and SOX/SOC 2 PR Segregation-of-Duties compliance report (100% linked ApmIssue & independent approver check)."
     },
     {
       "name": "Repository Tree & Blame View",
       "route": "repo-code-browser",
       "htmlFilePath": "pages/repo-code-browser/repo-code-browser.html",
-      "title": "Repository Tree & Blame View",
-      "group": "(Hidden)",
+      "title": "*(Hidden)*",
+      "group": "*(Hidden)*",
       "icon": "fas fa-code",
       "displayInMenu": false,
       "order": 11,
-      "developmentDetails": "Branch/tag selector (#/repo-code-browser?id=...), directory tree, file syntax viewer + git blame toggle, README.md renderer, and Back to Repositories."
+      "developmentDetails": "Branch/tag selector (#/repo-code-browser?id=...), directory tree, file syntax viewer + git blame toggle, README.md renderer, and Back to Repositories.",
+      "pageTitle": "Repository Tree & Blame View",
+      "type": "AppPage",
+      "displayOnMenu": false,
+      "description": "Branch/tag selector (#/repo-code-browser?id=...), directory tree, file syntax viewer + git blame toggle, README.md renderer, and Back to Repositories."
     },
     {
       "name": "Pull Request Diff & Review Studio",
       "route": "pull-request-detail",
       "htmlFilePath": "pages/pull-request-detail/pull-request-detail.html",
-      "title": "Pull Request Diff & Review Studio",
-      "group": "(Hidden)",
+      "title": "*(Hidden)*",
+      "group": "*(Hidden)*",
       "icon": "fas fa-code",
       "displayInMenu": false,
       "order": 12,
-      "developmentDetails": "Tabbed PR studio (#/pull-request-detail?id=...): Conversation (projectChannelMessage + AI Walkthrough), Files Changed (split/unified diff + inline DevCodeReviewComments), Checks (#102/#103), Merge/Queue button, plus sliding pr-rule-drawer (displayOnMenu: false) for PR/Rule creation & editing."
+      "developmentDetails": "Tabbed PR studio (#/pull-request-detail?id=...): Conversation (projectChannelMessage + AI Walkthrough), Files Changed (split/unified diff + inline DevCodeReviewComments), Checks (#102/#103), Merge/Queue button, plus sliding pr-rule-drawer (displayOnMenu: false) for PR/Rule creation & editing.",
+      "pageTitle": "Pull Request Diff & Review Studio",
+      "type": "AppPage",
+      "displayOnMenu": false,
+      "description": "Tabbed PR studio (#/pull-request-detail?id=...): Conversation (projectChannelMessage + AI Walkthrough), Files Changed (split/unified diff + inline DevCodeReviewComments), Checks (#102/#103), Merge/Queue button, plus sliding pr-rule-drawer (displayOnMenu: false) for PR/Rule creation & editing."
     }
   ]
 }
